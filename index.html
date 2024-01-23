@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
      <!-- Style Sheet -->
-     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
      <!-- Font Awesome -->
      <script src="https://kit.fontawesome.com/ef66a13064.js" crossorigin="anonymous"></script>
 </head>
@@ -115,8 +115,59 @@
     </div>
        </div>
     </section>
+    <!-- Program Sections -->
+    <section class="flex flex-col gap-8 my-11 lg:my-32 p-3 lg:p-20">
+      <div>
+        <h1 class="text-center text-2xl lg:text-4xl font-extrabold mb-3">Program Sections</h1>
+       <p class="text-center mb-3">Develop a hokey game program featuring intense puck action, skillful player maneuvers, and thrilling goal-scoring events, blending realistic physics with immersive graphics and sound effects.</p>
+     </div>
+     <hr class="border-dashed" />
+     <div class="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-4 gap-6">
+      <!-- card-1 -->
+      <div class="card relative lg:w-auto lg:h-[338px] bg-[url('images/2.png')] text-white col-span-2 bg-cover">
+        <div class="absolute bg-black opacity-50 inset-0 rounded-2xl"></div>
+        <div class="card-body lg:flex lg:flex-col lg:gap-10 lg:mt-16 z-10">
+          <div class="flex flex-col gap-5">
+            <h2 class="card-title text-2xl font-bold">Junior Program</h2>
+          <p>Create a junior-level hokey game program with simplified controls, engaging visuals, and fun gameplay, focusing on fostering a positive gaming experience for younger players.</p>
+          </div>
+          <div class="card-actions justify-start">
+            <button class="btn border-none main-color-bg text-white">Register Now!</button>
+          </div>
+        </div>
+      </div>
+      <!-- card-2 -->
+      <div class="card relative lg:w-auto lg:h-[338px] bg-[url('images/3.png')] text-white col-span-2 bg-cover">
+        <div class="absolute bg-black opacity-50 inset-0 rounded-2xl"></div>
+        <div class="card-body lg:flex lg:flex-col lg:gap-10 lg:mt-16 z-10">
+          <div class="flex flex-col gap-5">
+            <h2 class="card-title text-2xl font-bold">Teenager Program</h2>
+          <p>
+             Strategies, and fitness routines to foster both athletic excellence and personal growth in young players. A dynamic and engaging hockey program specifically tailored for teenagers</p>
+          </div>
+          <div class="card-actions justify-start">
+            <button class="btn border-none main-color-bg text-white">Register Now!</button>
+          </div>
+        </div>
+      </div>
+      <!-- card-3 -->
+      <div class="card relative lg:w-auto lg:h-[338px] bg-[url('images/4.png')] text-white col-span-4 bg-cover">
+        <div class="absolute bg-black opacity-50 inset-0 rounded-2xl"></div>
+        <div class="card-body lg:flex lg:flex-col lg:gap-10 lg:mt-28 z-10">
+          <div class="flex flex-col gap-5">
+            <h2 class="card-title text-2xl font-bold">Professional Program</h2>
+            <p>Develop a comprehensive and professional hockey program encompassing advanced training modules, strategic gameplay analysis, fitness regimens.</p>
+          </div>
+
+          <div class="card-actions justify-start">
+            <button class="btn border-none main-color-bg text-white">Register Now!</button>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
   </main>
-  <footer class="footer p-10 bg-[#131318] text-white flex flex-col lg:flex-row justify-between lg:h-[454px] lg:items-center">
+  <footer class="footer p-10 bg-[#131318] text-white flex flex-col lg:flex-row justify-center lg:h-[454px] lg:items-center">
     <div>
         <aside class="lg:w-[346px] space-y-3">
             <h3 class="text-2xl lg:text-3xl font-bold text-center lg:text-left">Get In Touch</h3>
@@ -128,7 +179,7 @@
           </aside> 
     </div>
     
-    <div class="footer-links grid grid-col-2 lg:flex gap-8 lg:gap-52 justify-center w-full">
+    <div class="footer-links grid grid-col-2 lg:flex gap-8 lg:gap-52 justify-center w-full lg:w-1/2">
         <nav class="services flex flex-col gap-2 text-center">
             <header class="footer-title">Services</header> 
             <a class="link link-hover">Branding</a>
