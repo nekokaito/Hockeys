@@ -74,7 +74,7 @@
         </div> 
         </div>
         <!-- Div Card -->
-        <div class="lg:absolute lg:right-44 lg:bottom-10 bg-black lg:bg-[#000000b7] rounded-2xl m-4 p-4 lg:p-8 lg:w-[502px]">
+        <div class="lg:absolute lg:right-48 lg:bottom-[350px] bg-black lg:bg-[#000000b7] rounded-2xl m-4 p-4 lg:p-8 lg:w-[502px]">
             <h3 class="text-white text-xl lg:text-2xl font-extrabold">Meet all the heroes from the field</h3>
             <p class="text-white font-extralight">fast-paced sport played on ice or a field, with variations such as ice hockey, field hockey, and roller hockey. </p>
         </div>
@@ -496,26 +496,52 @@
               </ul>
           </div>
           <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
-              <h2 class="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
+             
               <form id="contactForm">
                   <div class="mb-6">
+                      <div class="mx-0 lg:mb-1 mb-4 grid lg:grid-cols-2 gap-6">
+                          <div class="mx-0 mb-1 sm:mb-4">
+                              <label for="name" class="pb-1 text-base font-bold">Your name</label>
+                              <input type="text" id="name" autocomplete="given-name" placeholder="Enter your full name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name">
+                          </div>
+                          <div class="mx-0 mb-1 sm:mb-4">
+                            <label for="name" class="pb-1 text-base font-bold">Your Email</label>
+                            <input type="text" id="name" autocomplete="given-name" placeholder="Enter your email" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name">
+                        </div>
+                        <div class="mx-0 mb-1 sm:mb-4">
+                          <label for="name" class="pb-1 text-base font-bold">Subject</label>
+                          <input type="text" id="name" autocomplete="given-name" placeholder="Enter your subject" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name">
+                      </div>
                       <div class="mx-0 mb-1 sm:mb-4">
-                          <div class="mx-0 mb-1 sm:mb-4">
-                              <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name">
-                          </div>
-                          <div class="mx-0 mb-1 sm:mb-4">
-                              <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email">
-                          </div>
+                        <label for="name" class="pb-1 text-base font-bold">Phone Number</label>
+                        <input type="text" id="name" autocomplete="given-name" placeholder="Enter your phone number" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name">
+                    </div>
+                          
                       </div>
                       <div class="mx-0 mb-1 sm:mb-4">
                           <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
                       </div>
                   </div>
                   <div class="text-center">
-                      <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                      <button type="submit" class="w-full bg-[#FF4240] text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
                   </div>
               </form>
+
           </div>
+      </div>
+     </section>
+     <!-- social media -->
+     <section class="flex flex-col bg-[#13131808] gap-8 my-11 lg:mb-10 p-3 lg:p-20">
+      <div class="flex flex-col gap-8 justify-center items-center">
+        <div>
+          <h3 class="text-center font-extrabold text-2xl">Social Media</h3>
+        </div>
+        <div class="flex gap-5 text-center">
+          <a href=""><i class="fa-brands fa-x-twitter text-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f text-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-instagram text-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-github text-2xl"></i></a>
+        </div>
       </div>
      </section>
   </main>
