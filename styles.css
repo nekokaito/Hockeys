@@ -19,3 +19,21 @@
 .main-color-bg {
     background-color: #FF4240;
 }
+hr {
+    border: 1px dashed rgba(19, 19, 24, 0.20);
+}
+
+
+/* Footer */
+
+/* .footer-links {
+    grid-template-areas: "services company legal";
+    
+}
+@media screen and (max-width:600px) {
+    .footer-links {
+        grid-template-areas: "services services company company"
+        ". legal legal .";
+        
+    }
+} */
